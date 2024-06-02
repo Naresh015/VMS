@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/VMS/static/css/main.06cda6b4.css",
+    "main.js": "/VMS/static/js/main.553f70f7.js",
+    "static/js/787.65f71028.chunk.js": "/VMS/static/js/787.65f71028.chunk.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/VMS/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/tlead.jpg": "/VMS/static/media/tlead.ffcd0b7d80b938c72e2e.jpg",
+    "static/media/pf2.jpg": "/VMS/static/media/pf2.a90a302b0f239daf56e0.jpg",
+    "static/media/fontawesome-webfont.eot": "/VMS/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/VMS/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/VMS/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/VMS/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/pf1.jpg": "/VMS/static/media/pf1.74382752ef38fb527fe2.jpg",
+    "static/media/pf3.jpeg": "/VMS/static/media/pf3.76213857a1ff55d9991a.jpeg",
+    "static/media/bg3.jpg": "/VMS/static/media/bg3.955ef3387a20c3353146.jpg",
+    "static/media/car.jpg": "/VMS/static/media/car.a48d3988ba80410fb09c.jpg",
+    "static/media/logg.png": "/VMS/static/media/logg.1c19de33f92fad718369.png",
+    "static/media/route.jpeg": "/VMS/static/media/route.7bba44fcfe1cad7e2ff2.jpeg",
+    "static/media/fuel.png": "/VMS/static/media/fuel.b8cfb35b5c97ed265d96.png",
+    "index.html": "/VMS/index.html",
+    "main.06cda6b4.css.map": "/VMS/static/css/main.06cda6b4.css.map",
+    "main.553f70f7.js.map": "/VMS/static/js/main.553f70f7.js.map",
+    "787.65f71028.chunk.js.map": "/VMS/static/js/787.65f71028.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06cda6b4.css",
+    "static/js/main.553f70f7.js"
+  ]
+}
