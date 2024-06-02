@@ -1,0 +1,57 @@
+#foot #div2{
+    background-color: black ;
+   
+    color: whitesmoke;
+    text-align: left;  
+}
+
+#foot #bgimg{
+    background-image: url('logg.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#foot #div2 .col-md-9  ul li:hover{
+    color: green;
+}
+#foot .col-md-9 #r1{
+    border-bottom:1px solid whitesmoke;
+    padding-top: 20px;
+}
+#foot h4:hover{
+    color: rgb(192, 237, 42);
+    cursor: pointer
+
+}
+
+
+#foot .col-md-9 #icon{
+    text-align: center;
+    font-size: 25px;
+}
+#foot .col-md-9 #icon li{
+    padding: 10px;
+    display: inline;
+}
+#foot .col-md-9 #mid .copyright{
+    color: azure;
+    padding: 10px;
+    text-align: center;
+
+}
+#foot .col-md-9 #mid{
+    text-align: center;
+}
+#foot .col-md-9 #mid .copyright:hover{
+    cursor: pointer;
+    color: blueviolet;
+}
+#foot .col-md-9 #icon b:hover{
+    color: rgb(107, 162, 234);
+}
+#foot .col-md-9 #icon span:hover{
+    color: rgb(156, 156, 241);
+}
+#foot .col-md-9 #icon i:hover{
+   color: rgb(226, 27, 30);
+}

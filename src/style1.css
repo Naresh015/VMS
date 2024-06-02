@@ -1,0 +1,232 @@
+body {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+#navbar {
+	box-shadow: 3px 3px 5px 0px black;
+	border-bottom: 5px solid gray;
+}
+#aboutpg .card p {
+	text-align: justify;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+		"Lucida Sans", Arial, sans-serif;
+}
+#content {
+	background-color: lightgrey;
+	padding: 20px;
+}
+#aboutpg .col-md-6 {
+	margin-top: 5px;
+}
+
+#cdimg {
+	height: 300px;
+}
+
+/* about page */
+#features .card1 img {
+	width: 100%;
+	height: 150px;
+}
+#features .card1 p {
+	text-align: justify;
+}
+.img1 img {
+	height: 200px;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+	width: 100%;
+}
+#aboutpg .card {
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+	overflow: hidden;
+	border-radius: 15px;
+}
+.img2 img {
+	position: relative;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 1;
+	height: 140px;
+	width: 140px;
+	border-radius: 50%;
+	border: 7px solid #fff;
+	margin-top: -80px;
+}
+#aboutpg .card:hover .img2 img {
+	border-color: green;
+	transition: 1s;
+}
+#abouthead {
+	font-size: 50px;
+	padding: 10px;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	font-stretch: narrower;
+	margin: 20px;
+	color: whitesmoke;
+	animation: glow 0.7s ease-in infinite;
+}
+@keyframes glow {
+	0% {
+		background: linear-gradient(45deg, #ffd800, #ff5520, #0cbcf2);
+	}
+	50% {
+		background: linear-gradient(90deg, hsl(132, 100%, 50%), #ff5520, #0cbcf2);
+	}
+	100% {
+		background: linear-gradient(45deg, #ffd800, #ff5520, hsl(278, 91%, 50%));
+	}
+}
+#abouthead:hover {
+	background-color: rgb(0, 247, 255);
+}
+#vmsfunc {
+	padding: 30px;
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+#profiles {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.content {
+	padding: 30px 0 15px 0;
+	text-align: center;
+}
+
+/*react icons*/
+
+#reacticons {
+	margin-right: 25px;
+}
+#reacticons li {
+	display: inline-block;
+	padding: 10px;
+	font-size: 20px;
+}
+#reacticons li:hover {
+	transform: scale(1.5);
+	transition: 0.7s;
+	color: turquoise;
+}
+
+/*vehicle data*/
+
+#vehicledet #viewdata {
+	margin-top: 30px;
+	font-size: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: cadetblue;
+	border-bottom: 8px solid black;
+}
+
+#vehicledet #viewtab {
+	margin-top: 30px;
+	background-color: lightsteelblue;
+}
+/* home card section */
+#home .card h3,
+h5 {
+	padding-top: 5px;
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+	color: black;
+}
+#home .card {
+	border-radius: 5px;
+	padding: 10px;
+	margin: 4px;
+}
+#home #c1 {
+	background: lightgreen;
+	opacity: 0.7;
+}
+#home #c2 {
+	background: rgb(58, 133, 238);
+	opacity: 0.7;
+}
+
+#home #c3 {
+	background: rgb(6, 89, 144);
+	opacity: 0.7;
+}
+#home #c4 {
+	background: orange;
+	opacity: 0.7;
+}
+
+/* fuel form */
+
+#fform {
+	padding: 20px;
+	border-top: 6px solid navy;
+	box-shadow: 3px 5px 7px -1px black;
+}
+#fhead {
+	text-align: center;
+	border-left: 5px solid blue;
+	border-right: 5px solid blue;
+	font-size: 50px;
+	color: whitesmoke;
+	background-color: olivedrab;
+	margin: 20px;
+}
+#formdata {
+	padding: 20px;
+}
+
+/* home cards hover */
+
+#c1:hover {
+	transform: scale(1, 1.2);
+	filter: brightness(50%);
+}
+
+#c2:hover {
+	transform: scale(1, 1.2);
+	filter: brightness(50%);
+}
+
+#c3:hover {
+	transform: scale(1, 1.2);
+	filter: brightness(50%);
+}
+
+#c4:hover {
+	transform: scale(1, 1.2);
+	filter: brightness(50%);
+}
+
+#c1,
+#c2,
+#c3,
+#c4 {
+	display: flex;
+	justify-content: center;
+	row-gap: 5px;
+	align-items: center;
+}
+
+/* search bar getdetails */
+
+#search {
+	width: 50%;
+	transition: width 1s;
+}
+#search:hover {
+	width: 100%;
+}
+
+.ls {
+	border: 1px solid black;
+	background: darkolivegreen;
+	padding-top: 5px;
+	border-radius: 4px;
+	text-align: center;
+}
+.ls:hover {
+	transform: scale(1.1);
+}
+.l {
+	color: white;
+}

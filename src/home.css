@@ -1,0 +1,36 @@
+#dp {
+	margin: 40px;
+	font-size: 50px;
+	text-transform: capitalize;
+	text-shadow: 2px 5px 7px red;
+	animation: myanim 1s ease-in-out infinite;
+}
+body {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+@keyframes myanim {
+	0% {
+		opacity: 0;
+	}
+	25% {
+		opacity: 0.8;
+	}
+	50% {
+		opacity: 0.5;
+	}
+	75% {
+		opacity: 0.2;
+	}
+	100% {
+		opacity: 0.1;
+	}
+}
+#db {
+	margin: 0;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
